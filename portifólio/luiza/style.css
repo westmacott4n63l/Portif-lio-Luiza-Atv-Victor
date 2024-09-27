@@ -1,0 +1,90 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Gowun Batang", serif;
+    background-color: #e7ceee;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #de90e9;
+}
+
+section {
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 320px;
+}
+
+.nome {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.p-sobre {
+    width: 80%;
+    text-align: center;
+}
+
+.grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.projeto {
+    text-align: center;
+}
+
+.img-projeto {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.descricao-proj1pto {
+    margin-top: 10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #de90e9;
+    padding: 20px;
+    text-align: center;
+}
